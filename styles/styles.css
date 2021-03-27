@@ -3,11 +3,20 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 #logo-searchbox{ display: grid;
     min-width: auto;
     max-width: 400px;
     grid-template-rows: auto;
     justify-content: center;
-
 }
+#logo{
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    width: 500px;
+    justify-content: center;
+}
+
+
+
