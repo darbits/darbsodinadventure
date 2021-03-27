@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-searchbox{ display: grid;
+    min-width: auto;
+    max-width: 400px;
+    grid-template-rows: auto;
+    justify-content: center;
+
+}
