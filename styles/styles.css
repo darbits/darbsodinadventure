@@ -4,8 +4,10 @@ body{
 #navbar{
     margin-bottom: 15%;
     display: grid;
+    grid-template-columns: 1fr 1fr;
    
 }
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -35,11 +37,13 @@ li{
     display: block;
     padding: 8px;
 }
-#bottom-nav{
+footer{
+    display: grid;
     margin-top: 15%;
     background-color: lightgray;
-    justify-self: start;
     width: 100%;
+    grid-template-rows: 50px;
+    grid-template-columns:1fr 1fr;
 }
 a{
     color: black;
@@ -48,6 +52,7 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
 
 
 
