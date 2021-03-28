@@ -53,8 +53,8 @@ li{
 }
 footer{
     display: grid;
-    margin-top: 15%;
-    background-color: lightgray;
+    margin-top: 20%;
+    background-color: rgba(211, 211, 211, 0.493);
     width: 100%;
     grid-template-rows: 50px;
     grid-template-columns: 1fr 200px;
