@@ -35,7 +35,6 @@ ul{
 }
 #logo{
   justify-self: center;
-  margin-top: 200px;
   margin-bottom: 25px;
 }
 #search{
@@ -76,7 +75,24 @@ a:hover{
     max-width: 400px;
 }
 
+.btn{
+    cursor: pointer;
+    outline-color: black;
+    display: inline-block;
+}
+.btn:hover{
+    transform: scale(1.05);
+}
 
-
-
-
+#buttons{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+.btn google{
+    justify-self: start;
+}
+.btn lucky{
+    justify-self: end;
+}
