@@ -58,6 +58,8 @@ footer{
     grid-template-rows: 50px;
     grid-template-columns: 1fr 200px;
     align-items: center;
+    margin-bottom: 0%;
+    
 }
 a{
     color: black;
