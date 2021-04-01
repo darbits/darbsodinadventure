@@ -42,6 +42,12 @@ ul{
     width: 575px;
     justify-content: center;
     border-radius: 50px;
+    border-color: rgba(211, 211, 211, 0.596);
+    border-width: 1px;
+    padding-inline-start: 20px
+}
+#search:hover{
+    box-shadow: 5px 5px 5px lightslategrey;
 }
 li{
     font-size: smaller;
